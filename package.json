@@ -1,0 +1,26 @@
+{
+  "name": "tp2server",
+  "description": "",
+  "version": "0.0.2",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Benji",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/Benjijamin/TP2Server.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3",
+    "supertest": "^6.0.0"
+  }
+}
